@@ -1,0 +1,7 @@
+{
+  "name": "Echo: Voice AI Assistant",
+  "description": "A real-time voice-to-voice AI assistant capable of function calling and interactive desktop-style control simulations.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

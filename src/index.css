@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "JetBrains Mono", "Roboto Mono", monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#E6E6E6] text-[#151619] antialiased;
+  }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
